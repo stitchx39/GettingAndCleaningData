@@ -30,13 +30,11 @@ The following describe about the script:
 1. Merges the training and the test sets to create one data set.
 	- Both Train and Test Data are column bind first with subject and Training labels in sequence
 	- Train Data and Test Data are row bind together resulting in 10299 obs of 563 variables
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-	- Both Train and Test Data are column bind first with subject and Training labels in sequence
-	- Train Data and Test Data are row bind together resulting in 10299 obs of 563 variables
-3. Appropriately labels the data set with descriptive variable names. 
-	-Identify columns with mean and std from Variable Names
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+	- Identify columns with mean and std from Variable Names
 	- Labels the data set with descriptive variable names.
 	- Extract required columns. There are 88.
+3. Appropriately labels the data set with descriptive variable names. 
 4. Uses descriptive activity names to name the activities in the data set
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
